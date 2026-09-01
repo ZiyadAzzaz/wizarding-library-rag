@@ -1,0 +1,3 @@
+# Optional semantic embedding backend.
+sentence-transformers==5.1.0
+

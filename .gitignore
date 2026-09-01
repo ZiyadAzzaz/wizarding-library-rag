@@ -1,0 +1,14 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+*.log
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.coverage
+htmlcov/
+.cache/
+data/raw/
+backend/data/vector_store/*
+!backend/data/vector_store/.gitkeep
