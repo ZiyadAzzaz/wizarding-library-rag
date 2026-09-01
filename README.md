@@ -1,10 +1,19 @@
 # Wizarding Library RAG
 
+> Final project for the **ITI Applied AI Course**
+
 [![CI](https://github.com/ZiyadAzzaz/wizarding-library-rag/actions/workflows/ci.yml/badge.svg)](https://github.com/ZiyadAzzaz/wizarding-library-rag/actions/workflows/ci.yml)
 [![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-A production-structured Retrieval-Augmented Generation assistant that answers questions from the seven Harry Potter books and cites the exact retrieved pages. The project implements the **Core Track** in `Graduation_Project_L2.pdf`: reproducible ingestion and evaluation, a persisted Qdrant vector database, a FastAPI backend, a Streamlit frontend, tests, Docker support, and local generation through Ollama.
+A production-structured Retrieval-Augmented Generation assistant that answers questions from the seven Harry Potter books and cites the exact retrieved pages. Built as the final project for the **ITI Applied AI Course**, it demonstrates reproducible ingestion and evaluation, a persisted Qdrant vector database, a FastAPI backend, a polished Streamlit frontend, automated tests, Docker support, and private local generation through Ollama.
+
+## Project documentation
+
+- [Complete technical guide](PROJECT_GUIDE.md) — architecture, data flow, setup, implementation decisions, testing, evaluation, troubleshooting, and extension ideas
+- [Executed RAG notebook](notebooks/rag_pipeline.ipynb) — ingestion, indexing, retrieval experiments, and evaluation evidence
+- [Measured evaluation results](notebooks/evaluation_results.csv) — transparent per-question results rather than unverified claims
+- [Interactive API documentation](http://localhost:8000/docs) — available after starting the backend
 
 ## What makes the answer grounded?
 
@@ -197,9 +206,9 @@ docker compose up --build
 docker compose exec ollama ollama pull llama3.2:3b
 ```
 
-Build/upload the collection before querying. For the graduation demo, the Conda/local-persisted path is simpler and is the primary documented workflow.
+Build/upload the collection before querying. For a local demonstration, the Conda/local-persisted path is simpler and is the primary documented workflow.
 
-## Submission checklist
+## Portfolio readiness
 
 - [x] Professional FastAPI structure with startup loading, CORS, validation, logging, and docs
 - [x] Streamlit chat UI with loading/error states and configurable backend URL
@@ -208,7 +217,6 @@ Build/upload the collection before querying. For the graduation demo, the Conda/
 - [x] Happy-path and invalid-input API tests plus chunking tests
 - [x] `.env.example`, pinned dependencies, Dockerfiles, and `.gitignore`
 - [x] Run the full notebook to create the persisted store and measured evaluation table
-- [ ] Capture UI/API screenshots and recorded demo
 - [x] Publish to a public GitHub repository
 
 ## License and data notice

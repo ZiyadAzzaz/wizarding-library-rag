@@ -9,6 +9,7 @@ __pycache__/
 .coverage
 htmlcov/
 .cache/
+.codex_tmp/
 data/raw/
 backend/data/vector_store/*
 !backend/data/vector_store/.gitkeep
