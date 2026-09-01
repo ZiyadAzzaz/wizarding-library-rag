@@ -319,7 +319,7 @@ Install `requirements-semantic.txt` and ensure Hugging Face model access is avai
 4. Add answer-level faithfulness and citation-precision metrics.
 5. Add authenticated remote deployment with managed Qdrant and secret storage.
 6. Add telemetry for latency, retrieval scores, abstentions, and model availability.
-7. Add UI and API screenshots plus a short demonstration video to the repository assets.
+7. Add answer-state and API documentation screenshots plus a short demonstration video to the repository assets.
 
 ## 16. What this project demonstrates to reviewers
 

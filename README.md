@@ -15,6 +15,12 @@ A production-structured Retrieval-Augmented Generation assistant that answers qu
 - [Measured evaluation results](notebooks/evaluation_results.csv) — transparent per-question results rather than unverified claims
 - [Interactive API documentation](http://localhost:8000/docs) — available after starting the backend
 
+## Application preview
+
+![Wizarding Library Streamlit interface](docs/screenshots/wizarding-library-home.png)
+
+The Streamlit interface exposes retrieval controls, backend health verification, a grounded-answer policy, and a focused chat experience. Retrieved answers display book titles, page numbers, relevance scores, and evidence excerpts.
+
 ## What makes the answer grounded?
 
 ```mermaid
