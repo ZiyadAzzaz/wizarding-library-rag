@@ -209,7 +209,7 @@ Build/upload the collection before querying. For the graduation demo, the Conda/
 - [x] `.env.example`, pinned dependencies, Dockerfiles, and `.gitignore`
 - [x] Run the full notebook to create the persisted store and measured evaluation table
 - [ ] Capture UI/API screenshots and recorded demo
-- [ ] Publish to a public GitHub repository
+- [x] Publish to a public GitHub repository
 
 ## License and data notice
 
